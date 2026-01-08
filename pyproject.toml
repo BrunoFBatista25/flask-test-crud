@@ -1,0 +1,16 @@
+[project]
+name = "bruno-flask-api"
+version = "0.1.0"
+description = "Aprendendo API com Flask"
+authors = [{ name = "Bruno" }]
+license = "MIT"
+# readme = "README.md"  <-- You can comment this out or delete it
+requires-python = "3.13.3"
+dependencies = ["flask (>=3.1.2,<4.0.0)"]
+
+[tool.poetry]
+package-mode = false # This tells Poetry not to try and "install" the project itself
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
